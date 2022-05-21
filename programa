@@ -1,0 +1,9 @@
+from carro import Carro
+#import carro as carro
+#import carro as carro
+
+if __name__ == '__main__':
+    carro1 = Carro('Chevrolet', 'azul', 2012, 'VRJ-1231', 0)
+    print(carro1.andar(10))
+
+
